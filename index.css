@@ -1,0 +1,88 @@
+/* General text */
+body, input, button {
+  color: #222; /* Dark text */
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+/* Buttons */
+button {
+  background-color: #0057b8; /* Strong blue */
+  color: #fff;               /* White text */
+  border: 2px solid #003974; /* Darker border */
+  border-radius: 6px;
+  padding: 0.6em 1.2em;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, border 0.2s;
+}
+
+button:hover, button:focus {
+  background-color: #003974;
+  border-color: #001f3f;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #111;
+  font-weight: bold;
+}
+
+/* Completed project example */
+.completed {
+  background-color: #e0ffe0; /* Light green background */
+  color: #1a3a1a;            /* Dark green text */
+  border-left: 4px solid #2ecc40;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+}
+
+body {
+  background: #fffbe6; /* Keep a soft background */
+  color: #222;         /* Dark text for all */
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  color: #222;
+}
+
+.card .address {
+  font-weight: bold;
+  color: #222;
+}
+
+.card .details {
+  color: #444;
+  font-size: 1.1em;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.status-dot.green { background: #1ec773; }
+.status-dot.red   { background: #e74c3c; }
+.status-dot.yellow{ background: #f7b731; }
+
+h1, h2, h3 {
+  color: #222;
+  font-weight: bold;
+}
+
+button {
+  background: #0057b8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+} 

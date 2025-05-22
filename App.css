@@ -1,0 +1,84 @@
+/* Make the background soft but keep cards distinct */
+body {
+  background: #fffbe6;
+  color: #222;
+}
+
+/* Card styles */
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  color: #222;
+  padding: 1em;
+  margin: 0.5em;
+  min-width: 180px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Address/title in card */
+.card .address {
+  font-weight: bold;
+  color: #222;
+  font-size: 1.1em;
+}
+
+/* Details in card */
+.card .details {
+  color: #444;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* Status dot styles */
+.status-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.status-dot.green { background: #1ec773; }
+.status-dot.red   { background: #e74c3c; }
+.status-dot.yellow{ background: #f7b731; }
+
+/* Headings */
+h1, h2, h3 {
+  color: #222;
+  font-weight: bold;
+}
+
+/* Button styles */
+button, .button {
+  background: #0057b8;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 0.2em;
+  transition: background 0.2s, border 0.2s;
+}
+
+button:hover, .button:hover, button:focus, .button:focus {
+  background: #003974;
+}
+
+/* Optional: Make the placeholder text more visible */
+.placeholder-title {
+  color: #bfa600;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.placeholder-subtitle {
+  color: #a68c00;
+  font-size: 1em;
+}
